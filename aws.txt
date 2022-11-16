@@ -1,0 +1,26 @@
+Which AWS service would simplify the migration of a database to AWS?
+A) AWS Storage Gateway
+B) AWS Database Migration Service-------->(correct ans)
+C) Amazon EC2
+D) Amazon Appstream 2.0
+
+https://dl.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner Sample-Questions.pdf
+
+route 53
+EC2
+-------------------------------------------------------------------
+
+IAM(Identity and access Management, Global Service)
+---------------------------------------------------
+- Root access created by user by default, shouldnot be used or shared
+- Users are people within your organization and can be grouped
+- Grps only contains user, not other grps
+- Users dont belong to a grp
+  and can belong to multiple grps
+
+
+IAM:permissions
+---------------
+- Users or grps can be assigned JSON documents aclled policies.
+- These policies define the permissions of the users.
+- In AWS you can apply LEAST PRIVILAGE PRINCIPLE:dont give more permissions than a user needs.
